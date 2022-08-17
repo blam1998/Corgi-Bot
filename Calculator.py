@@ -25,7 +25,7 @@ from config import AmuletPath,RingPath,EarringPath
 #Data = list
 #Each data piece is a dictionary with key VarCharValue
 #print(results['ResultSet']['Rows'][1]['Data'][0]['VarCharValue'])
-###################
+####################
 
 class Calculator:
     def __init__(self):
