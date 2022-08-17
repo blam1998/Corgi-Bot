@@ -1,0 +1,25 @@
+#Player data
+++Bools: Active
+++
+#Gamble
+--Gambles gold coin, can be used in game later.
+--To get gold coin you must mine manually using afk bot.
+
+#Mining
+--Can obtain various ores: Iron, Gold, Diamond, Dynirium.
+--AFK mine for x amount of time specified by user. or until !stop_mining command.
+--NOTE: Only gold coins until game releases.
+
+#Smelting
+--can smelt normal ores
+--Gold can be smelted into ingots or coins.
+--Smelt until all ores are processed.
+
+
+#AFK scheme:
+--!AFK_command
+--Bot: @user edit previous message to begin mining.
+--User: edit old message.
+--Bot: edits its own message and keeps track of local ore mined.
+--!stop_AFK_command -->
+--Once complete, bot deposit those ores into player database.
